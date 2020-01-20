@@ -1,0 +1,16 @@
+var pesos: Double = 4
+var reais: Double = 5
+var soles: Double = 2
+
+var total: Double
+
+/*
+1 Mexican Peso equals .054
+1 Brazilian Reais equals .24
+1 Peru Sol equals .30
+*/
+
+total = 0.054 * pesos + 0.24 * reais + 0.30 * soles
+
+print ("total USD = $\(total)")
+
